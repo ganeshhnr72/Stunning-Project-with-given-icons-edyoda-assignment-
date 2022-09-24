@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  height: 1000px;
+}
+/* navigation bar starts here */
+.nav_css {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 35px 0px 50px;
+  align-items: center;
+}
+.logo_css img {
+  width: 150px;
+
+  /* padding: 0px 0px 0px 70px; */
+}
+.menu_css ul {
+  display: flex;
+  text-decoration-style: none;
+  list-style-type: none;
+}
+.menu_css ul li {
+  padding: 30px;
+  font-size: 16px;
+  color: #bcbbb9;
+  font-weight: 500;
+}
+.menu_css ul li:hover {
+  text-decoration: underline 2.5px;
+  text-decoration-color: #8071d0;
+  color: black;
+}
+.login_button button {
+  height: 60px;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  color: #5243c0;
+  background-color: #ffd8db;
+  border: none;
+}
+/* navigation bar ends here */
+
+/* main content starts here */
+.main_content {
+  display: flex;
+  padding: 3% 0% 0% 10%;
+}
+.left_content {
+  margin-top: -55px;
+  height: 600px;
+  width: 35%;
+}
+.left_content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 85px;
+  font-weight: 900;
+}
+.left_content h1 i {
+  color: #5243c0;
+  font-size: 20px;
+}
+.left_content p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  color: #726e6d;
+  margin-top: -50px;
+}
+/* new account button starts here */
+.new_account_button {
+  height: 60px;
+  width: 180px;
+  font-weight: 600;
+  border-radius: 22px;
+  color: #ffffff;
+  background-color: #5243c0;
+  border: none;
+}
+.button_section {
+  display: flex;
+}
+.button_section img {
+  margin-left: 5px;
+}
+/* card section starts here */
+.card_section {
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin-bottom: 5px;
+  position: relative;
+}
+.card .ckeck_box_img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.card .ckeck_box_img {
+  background-image: url(../img/tick-gray.png);
+}
+.card .ckeck_box_img:hover {
+  background-image: url(../img/tick-blue.png);
+}
+.card:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px grey;
+}
+.card h4 {
+  color: #27241e;
+  font-size: 16px;
+  margin: 0px 65px 0px 20px;
+}
+.card h5 {
+  font-size: 16px;
+  color: #bcbbb9;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 280px;
+}
+.user_icon {
+  position: absolute;
+  margin-left: 220px;
+}
+.empty_span1 {
+  height: 10px;
+  width: 25px;
+  background-color: pink;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 350px;
+}
+.empty_span2 {
+  height: 10px;
+  width: 25px;
+  background-color: #fd6534;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 350px;
+}
+.empty_span3 {
+  height: 10px;
+  width: 25px;
+  background-color: #9ed095;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 350px;
+}
+.empty_span4 {
+  height: 10px;
+  width: 25px;
+  background-color: #ffe4a0;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 350px;
+}
+/* right content starts here  */
+.right_content {
+  width: 65%;
+}
+.right_content img {
+  padding-left: 60px;
+  /* box-shadow: 20px 0px 0px -3px grey; */
+}
